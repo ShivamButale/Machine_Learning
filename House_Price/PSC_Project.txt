@@ -1,0 +1,28 @@
+on kaggle it was also specified how important the features were. 
+only living area had importance of 0.2 ..rest all had 0.01 and so on.... so i neglected them..
+also in a general view only area affects the price of a house.
+
+
+But u can also calculate  price using multiple parameters using multiple regression..
+
+
+Also 1 more important thing. i have specified data to test myself in the code ...
+Instead read the data from the datasset ..using the command : rushikesh_data = pd.read_csv ("Filename.csv")
+
+Separate the columns into features and target variable 
+
+
+features = data["name of feautrecolumn1(eg.location)", "featurecol2(eg.sqft)"]
+
+targetvarible = data["name of output column"]
+
+Split the data into train and test 
+
+RUN !!
+
+sending 2 datasets :
+1)house_data : Dataset from kaggle
+2)house_data_edited  : Contains only sqft  and price 
+
+Recommended that u find price based on all parametres (That will be much impressive!!)
+Finding only on basis of sqft area is ok but not that impressive !
